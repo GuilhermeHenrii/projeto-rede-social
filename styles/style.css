@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black; 
+}
+
+
+body{
+   background: url('../images/fundo-madeira.jpg') no-repeat top center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+section.phone{
+    width: 311px;
+    height: 627px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../images/frame-iphone.png') no-repeat;
+}
+
+
+section.phone .iframe-container{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 472px;
+}
+
+
+footer{
+
+}
