@@ -19,6 +19,12 @@ body{
 }
 
 
+::-webkit-scrollbar{
+    width: 0px;
+    padding: 0px;
+}
+
+
 main{
     height: 100vh;
     position: relative;
@@ -26,14 +32,14 @@ main{
 
 section.phone{
     width: 311px;
-    height: 600px;
+    height: 627px;
     background-color: blue;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: url('../images/frame-iphone.png') no-repeat;
-    background-size: 311px 600px;
+    
 }
 
 
@@ -41,8 +47,8 @@ section.phone .iframe-container{
     position: relative;
     top: 76px;
     left: 22px;
-    width: 268px;
-    height: 460px;
+    width: 267px;
+    height: 475px;
 }
 
 
