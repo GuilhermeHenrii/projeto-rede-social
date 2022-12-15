@@ -26,25 +26,44 @@ main{
 
 section.phone{
     width: 311px;
-    height: 627px;
+    height: 600px;
     background-color: blue;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: url('../images/frame-iphone.png') no-repeat;
+    background-size: 311px 600px;
 }
 
 
 section.phone .iframe-container{
     position: relative;
-    top: 80px;
+    top: 76px;
     left: 22px;
     width: 268px;
-    height: 472px;
+    height: 460px;
 }
 
 
-footer{
+section.socialmedia-list{
+    text-align: right;
+}
 
+
+.socialmedia-list img{
+    position: relative;
+    width: 50px;
+    border-radius: 50px;
+    list-style: none;
+    margin: 10px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.400);
+}
+
+
+.socialmedia-list img:hover{
+    border: 2px solid white;
+    transform: translate(-4px, -4px);
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.400);
+    transition: 0.5s, border 0.1s;
 }
